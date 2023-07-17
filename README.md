@@ -25,6 +25,6 @@ __USAGE:__
 
     python main.py
 
-__Note:__ In the latest version of this software, the Sr and the Hf programs are combined in the __Isotope__ software, for more infomation, please visit [Isotope]().
+__Note:__ In the latest version of this software, the Sr and the Hf programs are combined in the __Isotope__ software, for more infomation, please visit [Isotope](www.geo-fo2.com).
 
 Enjoy!
