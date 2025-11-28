@@ -1,10 +1,20 @@
-# -*- coding: UTF-8 -*-
-from tkinter import *
-from gui import Mainwindow
+"""
+Main entry point for ICP-MS Strontium Isotope Data Processor.
+
+This application provides a graphical interface for processing
+Neptune Plus™ ICP-MS data files and calculating strontium isotope ratios.
+"""
+
+from tkinter import Tk
+from gui import MainWindow
 
 
 def main():
+    """Initialize and run the main application."""
     root = Tk()
-    cls = Mainwindow(root)
+    app = MainWindow(root)
     root.mainloop()
-if __name__ == '__main__':main()
+
+
+if __name__ == '__main__':
+    main()
